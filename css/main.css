@@ -13,7 +13,7 @@ html {
 header {
   margin: 0;
   border: 5px solid #5a5750;
-  border-color: ##5a5750;
+  border-color: #5a5750;
   border-width:0;
   color:#fff;
   background-color: #79766f;
@@ -23,4 +23,18 @@ header {
 h1 {
   font-family: "Bevan", cursive;
   display: inline-block;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  display: inline-block;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  background-color: #6d3a36;
+  border-radius: 1em;
+  padding: 1em;
 }
